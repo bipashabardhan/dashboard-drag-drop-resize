@@ -1,0 +1,12 @@
+<div class="container mat-elevation-z3" cdkDrag cdkDragPreviewContainer="parent">
+    <h3 class="m-0 cursor-move">{{data().label}}</h3>
+    <button mat-icon-button class="settings-button" (click)="showOptions.set(true)">
+        <mat-icon>settings</mat-icon>
+    </button>
+    <ng-container [ngComponentOutlet]="data().content"></ng-container>
+    @if (showOptions()) {
+        <app-widget-options [data]="data()" [(showOptions)]="showOptions" />
+    }
+
+    <div *cdkDragPlaceholder></div>
+</div>

@@ -1,0 +1,26 @@
+:host {
+    display: block;
+    border-radius: 16px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: inherit;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.cursor-move {
+    cursor: move;
+}
+
+.settings-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
