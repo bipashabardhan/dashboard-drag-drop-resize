@@ -1,4 +1,5 @@
 📊 Angular 18 Dashboard – Resizable & Draggable Widgets
+
 A high-performance, component-driven Angular 18 dashboard leveraging Material UI, Signals, and CDK features for a dynamic and interactive UX. The layout is built for scalability, flexibility, and responsiveness, integrating drag-and-drop and resizable child components within a signal-driven parent container.
 
 🚀 Tech Stack
